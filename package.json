@@ -1,0 +1,56 @@
+{
+  "name": "webpack-temp-pug-sass",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "create::component": "node ./build/createComponent.js",
+    "create::page": "node ./build/createPage.js"
+  },
+  "author": "https://github.com/VSO-83",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VSO-83/webpack-temp-pug-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VSO-83/webpack-temp-pug-sass"
+  },
+  "keywords": [
+    "webpack",
+    "webpack4",
+    "babel",
+    "babel7",
+    "scss",
+    "pug"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

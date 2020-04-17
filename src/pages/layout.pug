@@ -1,0 +1,18 @@
+include ../components/bundle/bundle.pug
+
+block variables
+
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    title #{title}
+    meta(name="description", content=description)
+
+  body.wrapper
+    +header
+    main.content
+      .inner
+        .container
+          block content
+    +footer
